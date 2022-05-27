@@ -34,13 +34,13 @@ class Forms {
 			    $player->sendMessage($instance->getWarp()->get($data)["msg-teleport"]);
 			}
 		});
-        $form->setTitle("§l§6♦§2 Menu Dịch Chuyển §6♦");
-        $form->addButton("§l§3•§2 Thoát Menu §3•");
-        for($i = 1;$i <= 30;$i++){
-        	if($instance->getWarp()->exists($i)){
-        	    $form->addButton($instance->getWarp()->get($i)["button"], 1, $instance->getWarp()->get($i)["icon"]);
+       	 	$form->setTitle("§l§6♦§2 Menu Dịch Chuyển §6♦");
+        	$form->addButton("§l§3•§2 Thoát Menu §3•");
+        	for($i = 1;$i <= 30;$i++){
+        		if($instance->getWarp()->exists($i)){
+        	    	$form->addButton($instance->getWarp()->get($i)["button"], 1, $instance->getWarp()->get($i)["icon"]);
+        		}
         	}
-        }
-        $form->sendToPlayer($player);
+        	$form->sendToPlayer($player);
 	}
 }
