@@ -1,0 +1,13 @@
+---
+# Min 1 - Max 30
+1:
+  button: "§l§3•§2 PvP §3•"
+  icon: "https://cdn-icons-png.flaticon.com/512/1037/1037970.png" #The image link requires an image with a frame of 128x128, 512x512, 60x60
+  position: "269 69 246 PvP"
+  msg-teleport: "§l§c•§e Bạn Đã Được Dịch Chuyển Tới Khu§a PvP"
+2:
+  button: "§l§3•§2 Crates §3•"
+  icon: "https://cdn-icons-png.flaticon.com/512/3170/3170748.png" #The image link requires an image with a frame of 128x128, 512x512, 60x60
+  position: "-210 5 38 Lobby"
+  msg-teleport: "§l§c•§e Bạn Đã Được Dịch Chuyển Tới Khu§a Crates"
+...
